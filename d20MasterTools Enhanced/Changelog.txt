@@ -1,0 +1,19 @@
+Changelog d20MAsterTools Enhanced
+
+	1. Gestione (basilare) delle informazioni di pg e campagna relativa, immagazzinamento dei dati della campagna: Nome della campagna; Nome del Master; Numero di PG e PNG complessivi immagazzinati (calcolato automaticamente); Date di inizio e fine della campagna; Numero di sessioni giocate; Versione delle regole di D&D usata; Ambientazione; Trama; immagine della mappa. Per i pg sono immagazzinabili le seguenti informazioni: Nome del pg; Razza; elenco di Classi e classi di prestigio; Livello totale; Data di creazione del pg; punti esperienza; Background.
+	2. TiraDadi con possibilità di scegliere numero dei dadi da tirare (da 1 a 100), tiri da effettuare (da 1 a 100), bonus (da -100 a 100) e numero di facce tra 2, 3, 4, 5, 6, 8, 10, 12, 20, 30, 100.
+	3. Un player audio con supporto di file mp2, mp3, ogg, wav, ac3.
+	4. Un generatore di nomi Random a pattern, cioè una lista di chiavi specificate e altamente customizzabili, con possibilità di generazione di un massimo di 1000 nomi casuali.
+	5. Un timer di combattimento simile a quello sul d20MasterTools ma con la possibilità di inserire più dati per ogni combattente.
+	6. Un calcolatore di movimento e distanza del tutto identico a quello sul d20MasterTools.
+	7. Lo schermo del DM.
+	8. Possibilità di gestire playlist nel media player.
+
+Queste sono le Features implementate e funzionanti, le features che arriveranno a breve sono:
+	1. Il genera tesori. (Work In Progress... Manca il data entry)
+	2. Un genera incontri.
+	3. Un lettore di PDF. (Work In Progress...)
+	4. Un notepad. (Forse superfluo però se si vogliono prendere appunti normalmente... Work In Progress...)
+	5. Un genera città.
+	6. Nuovi sistemi di calcolo dei PE (Standard battaglia, variante del mdg, e "pe in base all'interpretazione" sistema trovato sul 5°Clone) oltre al metodo sperimentale inventato da me e di cui è già presente una guida.
+	7. Ulteriori dati per caratterizzare il PG (Sesso, descrizione fisica, immagine, ecc).

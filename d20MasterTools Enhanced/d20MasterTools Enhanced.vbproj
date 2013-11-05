@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B88F97FD-8CE6-4052-807F-14A9EC35A37E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>d20MasterTools_Enhanced</RootNamespace>
+    <AssemblyName>d20MasterTools Enhanced</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignAssembly>false</SignAssembly>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>http://julius8774.spaces.live.com</SupportUrl>
+    <TargetCulture>it-IT</TargetCulture>
+    <ProductName>d20MasterTools Enhanced</ProductName>
+    <PublisherName>kLeZ</PublisherName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <DisallowUrlActivation>true</DisallowUrlActivation>
+    <ApplicationVersion>0.4.0.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <RemoveIntegerChecks>True</RemoveIntegerChecks>
+    <OptionCompare>Binary</OptionCompare>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <ApplicationIcon>Treasure_chest.ico</ApplicationIcon>
+    <StartupObject>d20MasterTools_Enhanced.MDIMain</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>d20MasterTools Enhanced.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Optimize>true</Optimize>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>d20MasterTools Enhanced</AssemblyName>
+    <RootNamespace>d20MasterTools_Enhanced</RootNamespace>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <WarningLevel>4</WarningLevel>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <TargetFrameworkVersion>Mono v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>d20MasterTools Enhanced.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>d20MasterTools Enhanced</AssemblyName>
+    <DebugSymbols>true</DebugSymbols>
+    <RootNamespace>d20MasterTools_Enhanced</RootNamespace>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <WarningLevel>4</WarningLevel>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Itanium' ">
+    <OutputPath>bin\Itanium\Debug\</OutputPath>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>d20MasterTools Enhanced</AssemblyName>
+    <DebugSymbols>true</DebugSymbols>
+    <RootNamespace>d20MasterTools_Enhanced</RootNamespace>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <WarningLevel>4</WarningLevel>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Itanium' ">
+    <OutputPath>bin\Itanium\Release\</OutputPath>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>d20MasterTools Enhanced</AssemblyName>
+    <DebugSymbols>true</DebugSymbols>
+    <RootNamespace>d20MasterTools_Enhanced</RootNamespace>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <WarningLevel>4</WarningLevel>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>d20MasterTools Enhanced.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleAssemblies>C:\Programmi\Microsoft Visual Studio 8\Team Tools\Static Analysis Tools\FxCop\\rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>d20MasterTools Enhanced</AssemblyName>
+    <RootNamespace>d20MasterTools_Enhanced</RootNamespace>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <WarningLevel>4</WarningLevel>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>d20MasterTools Enhanced.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <CodeAnalysisRuleAssemblies>C:\Programmi\Microsoft Visual Studio 8\Team Tools\Static Analysis Tools\FxCop\\rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>d20MasterTools Enhanced</AssemblyName>
+    <DebugSymbols>true</DebugSymbols>
+    <RootNamespace>d20MasterTools_Enhanced</RootNamespace>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <WarningLevel>4</WarningLevel>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>d20MasterTools Enhanced.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleAssemblies>C:\Programmi\Microsoft Visual Studio 8\Team Tools\Static Analysis Tools\FxCop\\rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>d20MasterTools Enhanced</AssemblyName>
+    <RootNamespace>d20MasterTools_Enhanced</RootNamespace>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <WarningLevel>4</WarningLevel>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>d20MasterTools Enhanced.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <CodeAnalysisRuleAssemblies>C:\Programmi\Microsoft Visual Studio 8\Team Tools\Static Analysis Tools\FxCop\\rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>d20MasterTools Enhanced</AssemblyName>
+    <DebugSymbols>true</DebugSymbols>
+    <RootNamespace>d20MasterTools_Enhanced</RootNamespace>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <WarningLevel>4</WarningLevel>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'Itanium' ">
+    <PlatformTarget>Itanium</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DefineConstants>
+    </DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Compile Include="AssemblyInfo.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MersenneTwister.vb" />
+    <Compile Include="Movimento.Designer.vb">
+      <DependentUpon>Movimento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Movimento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuovoPG.Designer.vb">
+      <DependentUpon>NuovoPG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NuovoPG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApriCampagna.Designer.vb">
+      <DependentUpon>ApriCampagna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApriCampagna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calcoli.designer.vb">
+      <DependentUpon>Calcoli.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calcoli.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Campagna.vb" />
+    <Compile Include="CancellaCampagna.Designer.vb">
+      <DependentUpon>CancellaCampagna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CancellaCampagna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBADO.vb" />
+    <Compile Include="MDIMain.designer.vb">
+      <DependentUpon>MDIMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDIMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificaCampagna.Designer.vb">
+      <DependentUpon>ModificaCampagna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificaCampagna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificaPG.Designer.vb">
+      <DependentUpon>ModificaPG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificaPG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuovaCampagna.Designer.vb">
+      <DependentUpon>NuovaCampagna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NuovaCampagna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PG.vb" />
+    <Compile Include="RandomEncounter.Designer.vb">
+      <DependentUpon>RandomEncounter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RandomEncounter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RandomName.Designer.vb">
+      <DependentUpon>RandomName.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RandomName.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RandomTreasure.Designer.vb">
+      <DependentUpon>RandomTreasure.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RandomTreasure.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SchermoDM.Designer.vb">
+      <DependentUpon>SchermoDM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SchermoDM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sessione.vb" />
+    <Compile Include="Tesoro.vb" />
+    <Compile Include="TimerCombattimento.Designer.vb">
+      <DependentUpon>TimerCombattimento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimerCombattimento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TiraDadi.Designer.vb">
+      <DependentUpon>TiraDadi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TiraDadi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utils.vb" />
+    <Compile Include="VelocitaMovimento.vb" />
+    <Compile Include="VisualizzaDatiCampagna.designer.vb">
+      <DependentUpon>VisualizzaDatiCampagna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizzaDatiCampagna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizzaDatiPG.Designer.vb">
+      <DependentUpon>VisualizzaDatiPG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizzaDatiPG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizzaDettaglioTesoro.Designer.vb">
+      <DependentUpon>VisualizzaDettaglioTesoro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizzaDettaglioTesoro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizzaImmagine.Designer.vb">
+      <DependentUpon>VisualizzaImmagine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizzaImmagine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <None Include="MediaPlayer.vb">
+      <SubType>Form</SubType>
+    </None>
+    <None Include="MediaPlayer.Designer.vb">
+      <DependentUpon>MediaPlayer.vb</DependentUpon>
+    </None>
+    <Compile Include="AboutBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.designer.vb">
+      <DependentUpon>AboutBox.vb</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calcoli.resx">
+      <DependentUpon>Calcoli.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIMain.resx">
+      <DependentUpon>MDIMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuovaCampagna.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NuovaCampagna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizzaDatiCampagna.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VisualizzaDatiCampagna.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Guida\Sistema di assegnazione dei PE in base ai voti.pdf">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.1.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2005 Express Edition</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="d20MasterTools_Enhanced.mdb" />
+    <None Include="Guida\Guida.html">
+    </None>
+    <EmbeddedResource Include="ApriCampagna.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ApriCampagna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CancellaCampagna.resx">
+      <DependentUpon>CancellaCampagna.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MediaPlayer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MediaPlayer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificaCampagna.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ModificaCampagna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificaPG.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ModificaPG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Movimento.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Movimento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuovoPG.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NuovoPG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RandomEncounter.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RandomEncounter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RandomName.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RandomName.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RandomTreasure.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RandomTreasure.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SchermoDM.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SchermoDM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimerCombattimento.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TimerCombattimento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TiraDadi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TiraDadi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizzaDatiPG.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VisualizzaDatiPG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizzaDettaglioTesoro.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VisualizzaDettaglioTesoro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizzaImmagine.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VisualizzaImmagine.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Changelog.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <Import Project="$(SharpDevelopBinPath)\SharpDevelop.Build.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
